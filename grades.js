@@ -1,4 +1,8 @@
+//Prompt student marks
+
 const grade = prompt ("Enter your marks:");
+
+// Calculate students grades
 
 if (grade > 79 && grade <= 100){
     console.log ("A");
