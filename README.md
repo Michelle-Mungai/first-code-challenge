@@ -4,8 +4,9 @@
 
 <This project has three JavaScript files, one calculating Students' grades, another Detecting Drivers' Speed and the final one calculating the Net Salary of an Individual>
 
-##REQUIREMENTS
-##Prerequisites
+**REQUIREMENTS**
+
+**Prerequisites**
 * node v14.17.4 and above
 * npm 6.14.14 and above
 * vue 2.6.11
