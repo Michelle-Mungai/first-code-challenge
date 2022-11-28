@@ -1,3 +1,5 @@
+//Declare variables
+
 let salary;
 let benefits;
 let NHIF;
@@ -19,6 +21,7 @@ if (gross <= 24000) {
 console.log('Gross salary:', gross)
  console.log('PAYE deductions:', PAYE)
  console.log('NSSF deduction:', NSSF)
+ 
 //NHIF
         if (gross <= 5999 ){
             NHIF = (150)}
