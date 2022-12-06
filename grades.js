@@ -1,6 +1,8 @@
 //Prompt student marks
+const grade = require('prompt-sync')
+const prompt = grade()
 
-const grade = prompt ("Enter your marks:");
+let grades = prompt ("Enter your marks:");
 
 // Calculate students grades
 

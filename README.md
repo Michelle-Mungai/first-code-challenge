@@ -2,7 +2,7 @@
 
 **Grades, Speed and Net Salary Calculators**
 
-<This project has three JavaScript files, one calculating Students' grades, another Detecting Drivers' Speed and the final one calculating the Net Salary of an Individual>
+<This project has three JavaScript files, one calculating Students grades, another Detecting Drivers Speed and the final one calculating the Net Salary of an Individual>
 
 **REQUIREMENTS**
 
@@ -13,12 +13,47 @@
 * Install various packages from package.json using the `npm install command
 * Create environment variables
 
-```
-Meta
+## Project Setup
+### Installation
 
-----
-Author:
-*** Michelle Mungai** - Initial work* - https://github.com/Michelle-Mungai
+The installation steps below are described for a linux machine.\
+To use this repo on your machine requires some simple steps
+
+#### Alternative One (Cloning directly from my repository)
+- Open a terminal / command line interface on your computer
+
+- Clone the repo into your folder of choice by using the following:\
+  `git clone https://github.com/Michelle-Mungai/first-code-challenge`
+
+- Change directory to the repo folder:
+
+  `cd first-code-challenge`
+- (Optional) Open it in Visual Studio Code
+
+  `code .`
+- (Alternate Option) Open it in any editor of your choice.
+
+### Alternative Two (Forking to your own repository)
+- On the top right corner of this page there is a button labelled **Fork**.
+
+- Click on that button to fork the repo to your own account.
+
+- Take on the process in Alternative One above.
+
+- Remember to use your username when cloning.
+
+`git clone https://github.com/your-username-here/Code-challenge-WK1.git`
+
+## Running The Application
+To run the application simply run the following command in the terminal:\
+  `node grades.js` -- this will give you access to the Student Grades Calculator--
+  `node speed.js` -- this will give you access to the Speed Detector --
+  `node salary.js` -- this will give you access to the NetSalary Calculator--
+
+
+### Authors
+This project was contributed to by:
+- [Michelle Mungai](https://github.com/Michelle-Mungai)
 
 Status:
     maintained, and is currently in development

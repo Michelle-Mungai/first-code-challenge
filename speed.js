@@ -1,21 +1,20 @@
-//Speed variables declared
-
-const checkSpeed = (speed) => {
-    const speedLimit = 70;
-    const kmPerPoint = 5;
-
-if (speed < speedLimit){
-    console.log ("Ok")
-} 
-
-//Calculate if their license is suspended
-
-const points = Math.floor((speed - speedLimit)  / kmPerPoint);
-if (points >= 12)
-console.log("License suspended");
-// Return drivers points
-
-else console.log("Points:", points);
+//Challenge 2: Speed Detector (Toy Problem)
+const speedDetector = require('prompt-sync');
+const prompt = speedDetector();
+// speedMonitor function that uses else-if statements to determine speed limits
+function speedMonitor(){
+    // Ask user for input
+    let speed = prompt("Ask for speed?");
+    if (speed <= 70){
+        console.log("Ok");
+    }
+    else if(speed > 70 && speed <= 130){
+        let demeritPoint = (speed-70)/5;
+        console.log(`Points: ${demeritPoint}`);
+    }
+    else{
+        console.log("License suspended")
+    }
 }
-
-checkSpeed(300);
+// Call the speedMonitor function
+speedMonitor();
