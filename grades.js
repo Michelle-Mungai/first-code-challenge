@@ -6,13 +6,13 @@ let grades = prompt ("Enter your marks:");
 
 // Calculate students grades
 
-if (grade > 79 && grade <= 100){
+if (grades > 79 && grades <= 100){
     console.log ("A");
-}else if (grade >= 60 && grade <= 79){
+}else if (grades >= 60 && grades <= 79){
     console.log ("B");
-}else if (grade >=49 && grade <=59){
+}else if (grades >=49 && grades <=59){
     console.log ("C");
-} else if (grade >=40 && grade < 49){
+} else if (grades >=40 && grades < 49){
     console.log ("D-");
 }else{
     console.log ("E");
